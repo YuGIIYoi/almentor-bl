@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+
+body, html {
+  background-color: black !important; /* Force full black background */
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  text-align: right;
+  color:black !important; /* Ensure text is visible */
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.container {
+  background-color: black !important; /* Ensure all sections are black */
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.top-header-curved-background {
+  background: black !important; /* Ensure header section is black */
+  padding: 40px 20px;
+  text-align: center;
+  color: rgb(0, 0, 0) !important;
+  direction: rtl;
+}
+
+.top-header-curved-background h1 {
+  color: white !important;
+  direction: rtl;
+}
+
+.pricing-container {
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.pricing-card {
+  direction: rtl;
+  width: 400px;
+  background-color: #1e2222 !important; /* Dark gray cards */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  color: white !important;
+  text-align: right;
+  border: 1px ;
+}
+
+.price-tag {
+  color: #eb2027; /* Red for price */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.text-gray-600,
+.text-gray-500,
+.text-gray-700 {
+  color: #e7e7e7 !important; /* Light gray for readability */
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  background-color: #eb2027;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.btn-primary:hover {
+  background-color: #c91b23; /* Slightly Darker Red */
+}
+
+.btn-secondary {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #6f7171;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.btn-secondary:hover {
+  background-color: #6f7171;
+}
+
+/* Responsive Mobile Styles */
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .pricing-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .top-header-curved-background {
+    margin-top: 20px;
+  }
+
+  .flex {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .pricing-card {
+    max-width: 90%;
+  }
+}

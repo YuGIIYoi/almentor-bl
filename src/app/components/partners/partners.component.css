@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+.partners-section {
+  background-color: #1e2222 !important;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    direction: rtl;
+    text-align: center;
+    color: white !important;
+  }
+  
+  .partner-logo {
+    max-height: 50px;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+    color: white !important;
+  }
+  
+  .partner-logo:hover {
+    opacity: 1;
+  }
+  

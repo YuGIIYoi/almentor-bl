@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+/* FAQ Section Styles */
+.faq-wrapper {
+    background-color: black;
+    padding: 40px 0;
+    direction: rtl;
+    text-align: right;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .faq-question {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    cursor: pointer;
+    background-color: #1e2222;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+    
+  .faq-answer {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    padding: 12px 15px;
+    border-right: 4px solid #e00000;
+    background-color: #1e2222;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #1e2222;
+    padding-bottom: 10px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+  }
+  
+  .text-blue-500:hover {
+    text-decoration: underline;
+  }
+  
+  .transition-transform {
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
